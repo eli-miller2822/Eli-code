@@ -1,3 +1,6 @@
+.background-area{
+    background-color: rgb(247, 247, 247);
+}
 .collapse.width {
     width: 0;
     height: auto;
@@ -11,16 +14,20 @@
     background-color: rgb(39, 39, 39);
 }
 .info-row{
-    background-color: rgb(78, 78, 78);
+    background-color: rgb(255, 255, 255);
 }
 .question-row{
-    background-color: rgb(78, 78, 78);
+    background-color: rgb(255, 255, 255);
 }
-.tab-pane{
-    background-color: rgb(156, 156, 156);
-}
+
 .nav-tabs .nav-link.active {
   background-color: inherit;    /* will pick up the row’s bg */
   color: inherit;               /* match the text color of its parent */
   border-color: transparent;    /* remove that white bottom border */
+}
+.h-20 {
+    height:20%;
+}
+.h-80{
+    height:80%;
 }

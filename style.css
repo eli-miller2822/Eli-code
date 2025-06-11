@@ -1,0 +1,26 @@
+.collapse.width {
+    width: 0;
+    height: auto;
+    overflow: hidden;
+    transition: width ,35s ease;
+}
+.collapse.width.show {
+    width:25%;
+}
+.queue-col{
+    background-color: rgb(39, 39, 39);
+}
+.info-row{
+    background-color: rgb(78, 78, 78);
+}
+.question-row{
+    background-color: rgb(78, 78, 78);
+}
+.tab-pane{
+    background-color: rgb(156, 156, 156);
+}
+.nav-tabs .nav-link.active {
+  background-color: inherit;    /* will pick up the row’s bg */
+  color: inherit;               /* match the text color of its parent */
+  border-color: transparent;    /* remove that white bottom border */
+}

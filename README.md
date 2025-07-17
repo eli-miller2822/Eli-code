@@ -10,4 +10,6 @@ James and Eli TODO
 - Make follow ups a scrolling list.
 - Make previous question info get filled out based on student clicked.
 - Allow for drag and drop in the queue.
+- Add necessary Email input for new user screen.
+- Add getNameFromEmail section in the dao.
   

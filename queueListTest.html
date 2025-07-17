@@ -1,0 +1,30 @@
+<div class="col p-2 overflow-auto h-100">
+  <ul class="list-group">
+    <li th:each="student : ${students}" class="list-group-item">
+      <div class="d-flex flex-column flex-md-row gap-3">
+        <div class="flex-fill">
+          <strong>Email:</strong>
+          <span th:text="${student.email}">student@example.com</span>
+        </div>
+        <div class="flex-fill">
+          <strong>Class:</strong>
+          <span th:text="${student.course}">Course</span>
+        </div>
+        <div class="flex-fill">
+          <strong>Evaluation:</strong>
+          <span th:text="${student.evaluation}">Evaluation</span>
+        </div>
+        <div class="flex-fill">
+          <strong>Priority:</strong>
+          <span th:text="${student.priority}">0</span>
+        </div>
+        <div class="flex-fill">
+          <strong>Joined At:</strong>
+          <span th:text="${#dates.format(student.joinTime, 'yyyy-MM-dd HH:mm:ss')}">
+            2025-07-17 14:00:00
+          </span>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>

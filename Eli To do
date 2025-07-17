@@ -3,3 +3,6 @@ Eli Weekend To Do -
 - Add in the queueService and Test it
 - Add in the post mapping in studentQueueController and make sure that works with queueService
 - Add login system
+    * newUser works
+    * login works
+- Make everything be pulled from database
